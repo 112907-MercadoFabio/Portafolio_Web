@@ -1,0 +1,38 @@
+.studies {
+    background-color: var(--bg-color);
+    padding: 32px 0;
+    margin-top: 2rem;
+}
+
+.studies-pic {
+    width: 65%;
+    height: 60%;
+}
+
+.studies-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.studies-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.studies-container {
+    text-align: center;
+}
+
+.studies-container p {
+    padding: 0.5rem;
+}
+
+.studies-title {
+    margin-bottom: var(--bottom-margin);
+}
+
+.studies-details {
+    margin-bottom: var(--bottom-margin);
+}
