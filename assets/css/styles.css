@@ -49,9 +49,27 @@ a:hover {
 
 body {
     font-family: var(--font-family);
+    background: linear-gradient(150deg, white, grey, white);
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite;
 }
 
 section {
     max-width: 1100px;
     margin: auto;
+    background: linear-gradient(150deg, white, grey, white);
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite;
+}
+
+@keyframes BgGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }

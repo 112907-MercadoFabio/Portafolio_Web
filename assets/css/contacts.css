@@ -35,13 +35,14 @@
     border: 2px outset var(--primary-color);
     font-size: 0.875rem;
     outline: none;
+    background-color: transparent;
 }
 
 .submit-btn {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    background-color: #fff;
+    background-color: transparent;
     border: 2px solid var(--primary-color);
     border-radius: 5px;
     font-size: 1rem;

@@ -4,7 +4,7 @@
     }
     nav ul {
         position: fixed;
-        background-color: var(--bg-color);
+        background-color: transparent;
         flex-direction: column;
         top: 86px;
         left: 10%;
