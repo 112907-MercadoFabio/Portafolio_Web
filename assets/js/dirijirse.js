@@ -41,6 +41,14 @@ function redireccionar(id) {
   if(id==20){
     window.open("https://juegos-store.netlify.app/","_blank");
   }
+
+    //Productos angular
+  if(id==21){
+    window.open("https://productos-angular.vercel.app/","_blank");
+  }
+    if(id==12){
+    window.open("https://github.com/fabiomercadon/productos-angular","_blank");
+
   // ORACLE + LATAM
   if (id == 3) {
     window.open(
@@ -96,4 +104,5 @@ function redireccionar(id) {
   }
 
   
+}
 }
