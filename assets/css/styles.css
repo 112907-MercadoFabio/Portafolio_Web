@@ -23,6 +23,7 @@
 
 html {
     scroll-behavior: smooth;
+    
 }
 
 
@@ -48,21 +49,23 @@ a:hover {
 }
 
 body {
-    font-family: var(--font-family);
-    background: linear-gradient(150deg, white, grey, white);
-    background-size: 400% 300%;
-    animation: BgGradient 5s ease infinite;
+   font-family: var(--font-family);
+ 
+}
+.caja{
+    background: url(/assets/images/WhatsApp\ Image\ 2022-04-16\ at\ 01.59.38.jpeg) 100% #000;
 }
 
 section {
     max-width: 1100px;
     margin: auto;
-    background: linear-gradient(150deg, white, grey, white);
+    
+     /* background: linear-gradient(150deg, white, grey, white);
     background-size: 400% 300%;
-    animation: BgGradient 5s ease infinite;
+    animation: BgGradient 5s ease infinite;   */
 }
 
-@keyframes BgGradient {
+ /* @keyframes BgGradient {
     0% {
         background-position: 0% 50%;
     }
@@ -72,4 +75,12 @@ section {
     100% {
         background-position: 0% 50%;
     }
-}
+}  */
+.imagen{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #cccccc;
+  }
+

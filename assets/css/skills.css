@@ -1,19 +1,18 @@
 .skills {
     max-width: 68.75rem;
-    margin: auto;
     text-align: center;
     margin-top: 2.5rem;
+  
 }
 
-.skill-header {
-    margin-bottom: 1rem;
-}
-
-.skills-wrapper img {
-    padding: 1.25rem;
-}
-
-.icon {
-    width: 11.875rem;
-    height: 11.25rem;
-}
+ .luminous_color_title{
+    padding: 10px;
+    border: 2px solid #303030;
+    background: black;
+    color: #ff7235;
+    letter-spacing: 4px;
+    font-size: 25px;
+    border-radius: 20px;
+    cursor: pointer;
+   display: inline-block;
+   } 

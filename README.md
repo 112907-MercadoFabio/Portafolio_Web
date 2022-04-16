@@ -1,5 +1,5 @@
-# paginaPersonal
+#Portafolio
 
-Pagina web Personal creada con html css y javascript
+ Sitio web Personal creada con html, css, javascript, boostrap, jquery, y buenas practicas de progrmación. 
 
-https://fabiomercadon.github.io/paginaPersonal/
+https://fabio-mercado.netlify.app/

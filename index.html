@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!--CSS Styles -->
     <link rel="stylesheet" href="assets/css/styles.css" />
@@ -14,222 +14,328 @@
     <link rel="stylesheet" href="assets/css/proyects.css">
     <link rel="stylesheet" href="assets/css/contacts.css">
     <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/social.css">
-    <link rel="stylesheet" href="assets/css/scroll.css">
-    <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="assets/css/card.css">
     <link rel="stylesheet" href="assets/css/hobbies.css">
     <link rel="stylesheet" href="assets/css/studies.css">
+    <link rel="stylesheet" href="assets/css/components/responsive.css">
+    <link rel="stylesheet" href="assets/css/components/social.css">
+    <link rel="stylesheet" href="assets/css/componets/scroll.css">
+    <link rel="stylesheet" href="assets/css/components/card.css">
+    <link rel="stylesheet" href="assets/css/components/inputs.css">
+    <link rel="stylesheet" href="assets/css/components/butons.css">
+  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
-
-
+   
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="" 180x180 href="assets/images/jane-shot.bmp" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/jane-shot.bmp" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/fotoperfil2.jpeg" />
 
-    <!-- Animate CSS CDN -->
+    <!-- Animaciones CSS CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+   
     <title>FM | Web Developer</title>
+   
 </head>
 
 <body class="caja">
-    <!-- Navbar -->
-
-    <nav>
-        <h1>✔© FABIO MERCADO</h1>
-        <p class="parrafo__mailto">
-            <a href="mailto:fabiomercadon@gmail.com">fabiomercadon@gmail.com</a>
-        </p>
-        <ul class="navigation">
-            <li><a href="#about" class="nav-link">About</a></li>
-            <li><a href="#skills" class="nav-link">Skills</a></li>
-            <li><a href="#hobbies" class="nav-link">Hobbies</a></li>
-            <li><a href="#studies" class="nav-link">Studies</a></li>
-            <li><a href="#projects" class="nav-link">Projects</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
+   
+    <!-- Menu de navegación -->
+    <nav> 
+        <ul class="menu__hamburgesa">
+            <li class="luminous_color_nav"><a href="#about" class="nav-link">Sobre Mí</a></li>
+            <li class="luminous_color_nav"><a href="#skills" class="nav-link">Habilidades</a></li>
+            <li class="luminous_color_nav"><a href="#hobbies" class="nav-link">Diversiones</a></li>
+            <li class="luminous_color_nav"><a href="#studies" class="nav-link">Estudios</a></li>
+            <li class="luminous_color_nav"><a href="#projects" class="nav-link">Proyectos</a></li>
+            <li class="luminous_color_nav"><a href="#contact" class="nav-link">Contacto</a></li>
         </ul>
         <button class="burger-menu" id="burger-menu">
         <ion-icon class="bars" name="menu-outline"></ion-icon>
-        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
       </button>
     </nav>
-
-
-
-    <!-- Hero Section -->
+    <!-- Sección sobre mi -->
     <section class="hero" id="about">
-        <img src="assets/images/jane-shot.bmp" alt="jane-doe" loading="lazy" class="hero-img" />
-        <div class="bio animate__animated animate__shakeX">
-            <h2 class="bio-title">About Me</h2>
-            <p class="bio-text">
-                Soy Argentino residó en Córdoba Capital , soy apasionado por el mundo de la programación , por eso me encuentro capacitandome en el proyecto ONE oracle en alura
+        <img src="assets/images/fotoperfil3.jpeg" alt="Foto de perfil" loading="lazy" class="hero-img" />
+        <div class="bio">
+            <h2 class="bio-title  animate__animated animate__lightSpeedInRight" >¿Quíen soy? 😎</h2>
+            <p id="about-parrafo " class="text-white animate__animated animate__lightSpeedInRight">
+               Hola, mi nombre es Fabio Mercado. Tengo 24 años y vivo en Cordoba Capital, Argentina. Vivo con mi pareja y mis 3 mascotas. Actualmente estoy en busca de mi primer trabajo IT para poder sumarme al mundo de la Programación.
             </p>
         </div>
     </section>
 
-    <!-- More about -->
+    <!-- Sección mas Sobre mi -->
     <section class="more-about">
-        <h2>More About Me</h2>
-
-        <p>
-            Disfruto del desarrollo por la satisfacción que obtengo al superar los desafíos. Me motiva la oportunidad que brinda el software de impactar positivamente en la vida de una persona y del mundo en general.
+      <div class="more_about">
+        <h2 class="bio-title animate__animated animate__lightSpeedInRight">Sobre mí 👔</h2>
+        <p class="text-white animate__animated animate__lightSpeedInRight ">
+          Me encuentro en el Segundo año de la Tecnicatura Superior de Programación en la 
+          <strong>Universidad Tecnológica Nacional  Regional Córdoba</strong> y 
+          a su vez estoy realizando el proyecto <strong>Oracle Next Education.</strong>          
+             Tengo conocimientos en: .NET, .NET Core, Windows Forms, Patrones de diseño,
+              Programación en capas, Web Api, Report Viewer, Html5, CSS, JavaScript, Angular,
+               Postman, Swagger, XAMPP, Diseño de base de datos, SQL, MongoDB,
+                Programación orientada a objetos, GitHub, Desarrollo ágil de software.      
         </p>
-        <p>
-            Habilidades y tecnologías: | .NET | .NET Core | Windows Forms |Design Patterns|Layered programming | Web Api| Report Viewer | Html5 | CSS | JavaScript | Angular | Postman | Swagger | Database Design | SQL | Microsoft SQL Server | MongoDB | Object-oriented
-            programming | GitHub | SCRUM | Comunicativo | Autodidacta | Liderazgo | Hábil para motivar | Empático
-
-        </p>
+        <p class="text-white animate__animated animate__lightSpeedInRight">
+          Disfruto del desarrollo por la satisfacción que obtengo al superar los desafíos.
+          Me motiva la oportunidad que brinda el software de impactar positivamente en la
+           vida de una persona y del mundo en general.        </p>
+           <h6 class="text-white">Tecnicatura en Programación</h6>
+           <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger " role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+          </div>
+          <h6 class="text-white">Oracle Next Education</h6>
+          <div class="progress">
+           <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning " role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%"></div>
+         </div>
+         <h6 class="text-white">Conocimientos</h6>
+           <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+          </div>
+      </div>
     </section>
 
-    <!-- Skills section -->
+    <!-- Sección de Skills -->
     <section class="skills" id="skills">
-        <h2 class="skill-header">My Top Skills</h2>
-
-        <div class="skills-wrapper">
-            <div class="first-set animate__animated animate__pulse">
-                <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card" />
-                <img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" />
-                <img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" />
-                <img src="assets/icons/icons8-typescript.svg" alt="" loading="lazy" class="icon icon-card" />
-            </div>
-
-            <div class="second-set animate__animated animate__pulse">
-                <img src="assets/icons/icons8-c-sharp-logotipo.svg" alt="" loading="lazy" class="icon icon-card" />
-                <img src="assets/icons/icons8-angularjs.svg" alt="" loading="lazy" class="icon icon-card" />
-                <img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" />
-                <img src="assets/icons/icons8-microsoft-sql-server.svg" alt="" loading="lazy" class="icon icon-card" />
-
+       <h2 class="luminous_color_title">SKILLS</h2>
+            <div class="container">
+                <div class="row">
+                  <div class="col"> <img src="assets/icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card  " /></div>
+                  <div class="col"><img src="assets/icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card" /></div>
+                  <div class="col"><img src="assets/icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card" /></div>
+                  <div class="col"><img src="assets/icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card" /></div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col"><img src="assets/icons/icons8-c-sharp-logotipo.svg" alt="" loading="lazy" class="icon icon-card"/></div>
+                  <div class="col"><img src="assets/icons/icons8-angularjs.svg" alt="" loading="lazy" class="icon icon-card" /></div>
+                  <div class="col"><img src="assets/icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card" /></div>
+                  <div class="col"><img src="assets/icons/icons8-microsoft-sql-server.svg" alt="" loading="lazy" class="icon icon-card" /></div>
+                </div>
+              </div>
             </div>
         </div>
     </section>
     <section class="hobbies" id="hobbies">
-        <h2 class="hobbies-header">My Top hobbies</h2>
-
-        <div class="hobbies-wrapper">
-            <div class="first-set animate__animated animate__pulse">
-                <img src="assets/images/balls-sports.png" alt="" loading="lazy" class="icon icon-card" />
-                <img src="assets/images/fitness.png" alt="" loading="lazy" class="icon icon-card" />
-                <img src="assets/images/gamepad.png" alt="" loading="lazy" class="icon icon-card" />
-                <img src="assets/images/music.png" alt="" loading="lazy" class="icon icon-card" />
+        <h2 class="luminous_color_title">HOBBIES</h2>
+        <div class="container">
+            <div class="row">
+              <div class="col"> <img  src="assets/images/balls-sports.png" alt="" loading="lazy" class="icon icon-card "  /></div>
+              <div class="col">  <img src="assets/images/fitness.png" alt="" loading="lazy" class="icon icon-card" /></div>
+              <div class="col"> <img src="assets/images/gamepad.png" alt="" loading="lazy" class="icon icon-card" /></div>
+              <div class="col"> <img src="assets/images/music.png" alt="" loading="lazy" class="icon icon-card" /></div>
             </div>
+          </div>
         </div>
     </section>
-
+<!-- Sección de estudios -->
     <section class="studies" id="studies">
-        <h2 class="studies-title">Some of my most recent studies</h2>
-        <div class="studies-container">
-
-            <div class="studies-container project-card ">
-                <img src="assets/images/Imagem.png " alt="netflic-clone " loading="lazy " class="studies-pic " />
-
-                <p class="studies-details ">
-                    <a href="https://www.oracle.com/ar/education/oracle-next-education/">ONE - Oracle Next Education</a> <a href="https://www.aluracursos.com/"> alura latam</a>
-                </p>
-                <p>
-                    <a href="https://drive.google.com/file/d/1DSKFmWFXoPSUz5XuabdRAUoj8sBqOasR/view?usp=sharing " target="_blank " class="studies-link ">Certificados</a>
-                </p>
-            </div>
-
-            <div class="studies-container project-card ">
-                <img src="assets/images/tup.png " alt="greeny-earth " loading="lazy " class="project-pic " />
-                <h3 class="studies-title ">Tecnicatura universitaria programación</h3>
-                <p class="studies-details ">
-                    <a href="https://www.frc.utn.edu.ar/">UTN</a>
-                    <p>Habilidades : Innovación y Gestión - Front End - Programación - Base de datos</p>
-                </p>
-            </div>
-        </div>
+        <button  class="mover  btn-lg btn-block luminous_color">Ver Mis Estudios</button>
+    
+            <div class="abrir container-fluid">
+                <div class="row">
+                  <div class="col-sm">
+                    <div class="card" style="width: 18rem;height: 20.5rem;">
+                        <img class="image_proyect" src="assets/images/aluraLatam.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="text-white">Alura latam</h5>
+                          <p class="text-white">Proyecto de Oracle Next Education</p>
+                          <button onclick="redireccionar(3)" class="click_me">Certificados</button>
+                          <button onclick="redireccionar(4)" class="click_me">Oracle One</button>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card" style="width: 18rem;height: 20.5rem;">
+                        <img class="image_proyect" src="assets/images/tup.png " class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="text-white">UTN</h5>
+                          <p class="text-white">Tecnicatura universitaria programación</p>
+                          <button class="click_me">Certificados</button>
+                          <button onclick="redireccionar(5)" class="click_me">UTN</button>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card" style="width: 18rem;height: 20.5rem;">
+                        <img class="image_proyect" src="assets/images/udemy.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="text-white">Udemy</h5>
+                          <p class="text-white">Curso de Angular 13</p>
+                          <button onclick="redireccionar(6)"  class="click_me">Certificados</button>
+                          <button onclick="redireccionar(7)"  class="click_me">Udemy</button>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
     </section>
-    <!-- Projects section -->
+    <!-- Sección Proyectos -->
     <section class="projects" id="projects">
-        <h2 class="projects-title">Some of my most recent projects</h2>
-        <div class="projects-container">
-
-            <div class="project-container project-card ">
-                <img src="assets/images/ecptext.png " alt="netflic-clone " loading="lazy " class="project-pic " />
-                <h3 class="project-title ">Encriptador de texto</h3>
-                <p class="project-details ">
-                    - Debe funcionar solo con letras minúsculas
-                </p>
-                <p>
-                    - No deben ser utilizados letras con acentos ni caracteres especiales
-                </p>
-                <p>
-                    - Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada
-                </p>
-
-                <a href="https://fabiomercadon.github.io/alura-challenge/ " target="_blank " class="project-link ">Check it Out</a>
+        <button class="deslizar  btn-lg btn-block luminous_color">Algunos de mis proyectos</button>
+        <div class="project container-fluid ">
+            <div class="row">
+              <div class="col-sm">
+                <div class="card" style="width: 18rem;height: 23.5rem;">
+                    <img src="assets/images/ahorca.jpg" class="image_proyect" alt="...">
+                    <div class="card-body">
+                      <h5 class="text-white">Juego del Ahorcado</h5>
+                      <p class="card-text"><img src="assets/icons/icons8-css3.svg" alt=""><img src="assets/icons/icons8-html-5.svg" alt=""><img src="assets/icons/icons8-javascript.svg" alt=""></p>
+                      <button onclick="redireccionar(1)" class="click_me">Demo</button>
+                      <button onclick="redireccionar(13)" class="click_me">Repo</button>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="card" style="width: 18rem;height: 23.5rem;">
+                    <img src="assets/images/diferencia entre alimentación y nutrición.jpg " height="154px" class="image_proyect" alt="...">
+                    <div class="card-body">
+                      <h5 class="text-white">Buona Vita Nutrición</h5>
+                      <p class="card-text"><img src="assets/icons/icons8-css3.svg" alt=""><img src="assets/icons/icons8-html-5.svg" alt=""><img src="assets/icons/icons8-javascript.svg" alt=""></p>
+                      <button  onclick="redireccionar(15)" class="click_me">Demo</button>
+                      <button onclick="redireccionar(16)"  class="click_me">Repo</button>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="card"style="width: 18rem;height: 23.5rem;">
+                    <img src="assets/images/Historia-de-las-tijeras-de-barberia.jpg " height="154px" class="image_proyect" alt="...">
+                    <div class="card-body">
+                      <h5 class="text-white">Barberia Alura</h5>
+                      <p class="card-text"><img src="assets/icons/icons8-css3.svg" alt=""><img src="assets/icons/icons8-html-5.svg" alt=""></p>
+                      <button  onclick="redireccionar(18)" class="click_me">Demo</button>
+                      <button onclick="redireccionar(19)"  class="click_me">Repo</button>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="card" style="width: 18rem;height: 23.5rem;">
+                    <img src="assets/images/perros.jpg" height="154px" class="image_proyect" alt="...">
+                    <div class="card-body">
+                      <h5 class="text-white">Pagina para realizar registros</h5>
+                      <p class="card-text"><img src="assets/icons/icons8-css3.svg" alt=""><img src="assets/icons/icons8-html-5.svg" alt=""><img src="assets/icons/icons8-javascript.svg" alt=""></p>
+                      <button onclick="redireccionar(17)" class="click_me">Demo</button>
+                      <button onclick="redireccionar(17)" class="click_me">Repo</button>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="card" style="width: 18rem;height: 23.5rem;">
+                    <img  src="assets/images/cs-go.jpg "  class="image_proyect" alt="...">
+                    <div class="card-body">
+                      <h5 class="text-white">Utilizando Grid Layout</h5>
+                      <p class="card-text"><img src="assets/icons/icons8-css3.svg" alt=""><img src="assets/icons/icons8-html-5.svg" alt=""></p>
+                      <button onclick="redireccionar(20)" class="click_me">Demo</button>
+                      <button onclick="redireccionar(20)" class="click_me">Repo</button>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                <div class="card" style="width: 18rem;height: 23.5rem;">
+                    <img src="assets/images/ecptext.png" class="image_proyect" alt="...">
+                    <div class="card-body">
+                      <h5 class="text-white">Encriptador de texto</h5>
+                      <p class="card-text"><img src="assets/icons/icons8-css3.svg" alt=""><img src="assets/icons/icons8-html-5.svg" alt=""><img src="assets/icons/icons8-javascript.svg" alt=""></p>
+                      <button onclick="redireccionar(2)"   class="click_me">Demo</button>
+                      <button onclick="redireccionar(14)"  class="click_me">Repo</button>
+                    </div>
+                  </div>
+              </div>
             </div>
-
-            <div class="project-container project-card ">
-                <img src="assets/images/ahorcado.png " alt="greeny-earth " loading="lazy " class="project-pic " />
-                <h3 class="project-title ">Juego del Ahorcado</h3>
-                <p class="project-details ">
-                    - Debe funcionar solo con letras mayúsculas; </p>
-                <p> - No deben ser utilizadas letras con acentos ni caracteres especiales;</p>
-                <p> - Al completar o dibujo de la horca, debe ser mostrado un mensaje "Fin del juego" en la pantalla;</p>
-
-                <a href="https://fabiomercadon.github.io/ahorcado-alura/" target="_blank " class="project-link ">Check it Out</a>
-            </div>
-        </div>
+          </div>
+          
     </section>
 
-    <!-- Contact section -->
+    <!-- Sección Contacto sección -->
+    
     <section class="contact" id="contact">
-        <h2>Through this form contact me</h2>
+      <h2 class="bio-title">Contacto</h2> 
+     
         <div class="contact-form-container ">
             <div class="contact-form ">
                 <form action="https://formspree.io/f/xoqrwvqg" method="POST">
-                    <div class="form-control ">
-                        <label for="name ">Name</label>
-                        <input type="text " id="name " name="sender-name " placeholder="Enter Your Name " class="input-field " required />
+                    <div class="form-control-plaintext">
+                        <label for="name ">Nombre Completo</label>
+                        <input type="text " id="name " name="sender-name " placeholder="Ingrese su nombre" class="input-field " required data-tipo="nombre"  />
+                        <span class="input-message-error"></span>
                     </div>
-                    <div class="form-control ">
+                    <div class="form-control-plaintext">
+                    <label class="input-label" for="birth">Fecha de nacimiento</label>
+                    <input name="birth" id="birth" type="date"   class="input-field " required data-tipo="nacimiento">
+                    <span class="input-message-error"></span>
+                    </div>  
+                    <div class="form-control-plaintext ">
                         <label for="email ">Email</label>
-                        <input type="email " id="email " name="sender-email " placeholder="Enter Your Email " class="input-field " required />
+                        <input type="email " id="email " name="sender-email " placeholder="Ingrese su Email " class="input-field "  required data-tipo="email" />
+                        <span class="input-message-error"></span>
                     </div>
-                    <div class="form-control ">
-                        <label for="message ">Message</label>
-                        <textarea id="message " cols="60 " rows="10 " placeholder="Enter Your Message " name="message " class="input-field " required></textarea>
+                    <div class="form-control-plaintext ">
+                        <label for="number ">Numero</label>
+                        <input type="number " id="number " name="sender-number " placeholder="Ingrese su Numero " class="input-field " pattern="\d{10}" required minlegth="10" maxlength="10" data-tipo="numero"  />
+                        <span class="input-message-error"></span>
                     </div>
-
-                    <button class="submit-btn ">Enviar Formulario</button>
+                    <div class="form-control-plaintext ">
+                    <label class="input-label" for="address">Dirección completa</label>
+                    <input name="address" id="address"  type="text" placeholder="Ingrese su Dirección" class="input-field" required pattern="[\s\S]{10,40}" data-tipo="direccion">
+                    <span class="input-message-error"></span>
+                    </div>
+                    <div class="form-control-plaintext">
+                        <label for="message ">Mensaje</label>
+                        <textarea id="message" cols="60 " rows="10 " placeholder="Ingrese un Mensaje " name="message" class="input-field " required data-tipo="mensaje" ></textarea>
+                        <span class="input-message-error"></span>
+                    </div>
+                  
+                <button type="submit" class="luminous_color" onclick="enviar()" >Enviar Formulario</button>
                 </form>
             </div>
         </div>
     </section>
-
-    <!-- Social accounts - Fixed to the right -->
+     
+    <!-- Cuentas sociales - Fijadas a la derecha -->
     <div class="socials ">
-        <a href="https://drive.google.com/file/d/1MRIhp8B3e-AMK0tk-Zf2vrLDd0D2hBfX/view?usp=sharing " target="_blank "><img src="assets/icons/icons8-curriculum-vitae-64.png " alt="Curriculum " loading="lazy " class="socicon " /></a>
-        <a href="https://www.instagram.com/fabiomercadon/ " target="_blank "><img src="assets/icons/icons8-instagram.gif " alt="Instagram " loading="lazy " class="socicon " /></a>
-        <a href="https://www.linkedin.com/in/fabio-mercado-26a64a209/ " target="_blank "><img src="assets/icons/icons8-linkedin-circled.gif " alt="Linkedin " loading="lazy " class="socicon " /></a>
-        <a href="https://github.com/fabiomercadon " target="_blank "><img src="assets/icons/icons8-github.gif " alt="Github " class="socicon " /></a>
+        <a class="btn"  onclick="redireccionar(8)"><img src="assets/icons/icons8-curriculum-64.png" alt="Curriculum " loading="lazy " class="socicon " /></a>
+        <a class="btn"  onclick="redireccionar(9)"><img src="assets/icons/icons8-instagram.png " alt="Instagram " loading="lazy " class="socicon " /></a>
+        <a class="btn"  onclick="redireccionar(10)"><img src="assets/icons/icons8-linkedin-48.png " alt="Linkedin " loading="lazy " class="socicon " /></a>
+        <a class="btn"  onclick="redireccionar(11)"><img src="assets/icons/icons8-github-48.png " alt="Github " class="socicon " /></a>
     </div>
 
     <!-- Scroll to top -->
     <i class="scroll-up " id="scroll-up "><img
-        src="assets/icons/icons8-upward-arrow.gif "
+        src="assets/icons/icons8-gruesa-flecha.png "
         class="socicon up-arrow "
         alt=" "
     /></i>
 
-    <!-- Footer section -->
+    <!-- Footer seccion -->
     <footer>
-        <p class="copy ">&copy; Copyright 2022</p>
-        <p class="copy ">
+        <p class="text-white">&copy; Copyright 2022</p>
+        <p class="text-white">
             Built with &#x2661; by
-            <a href="https://www.linkedin.com/in/fabio-mercado-26a64a209/ " target="_blank ">Fabio Mercado</a
-        >
+            <button class="luminous_color" id="luminous_color"  onclick="redireccionar(10)">Fabio Mercado<img src="assets/icons/icons8-linkedin-48.png " alt="Linkedin " loading="lazy " class="socicon " /></button>
       </p>
     </footer>
+   
+             <!-- Archivos js -->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/dirijirse.js"></script>
+    <script src="assets/js/app.js" type="module"></script>
+   
+   
+            <!-- Libreria de animaciones -->
+           
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js "
+     nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js " ></script>
+   
+             <!-- Script de bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  
+            <!-- Libreria jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/jquery/jquery.js"></script>
 
-<script src="assets/js/script.js"  ></script>
-    <script
-            type="module"
-            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js "
-            nomodule
-            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js "
-    ></script>
-  </body>
+   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
 </html>

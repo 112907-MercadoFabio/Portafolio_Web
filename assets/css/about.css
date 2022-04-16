@@ -1,3 +1,4 @@
+
 .hero {
     display: flex;
     align-items: center;
@@ -8,16 +9,28 @@
 }
 
 .hero img {
-    height: 25rem;
-    width: 25rem;
-    border-radius: 25rem;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 2.4rem;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border: 1px solid black;
+    box-shadow: 0px 2px 15px 2px #001eff;
+  
 }
-
+.bio-title{
+  color: var(--secondary-color);
+  text-transform:uppercase;
+  
+}
 .bio {
     width: 25rem;
     padding: 0.625rem;
     border-radius: 6px;
-    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+    border: 1px solid black;
+    box-shadow: 0px 2px 15px 2px #001eff;
+    background: black;
+
 }
 
 .bio h1 {
@@ -29,23 +42,52 @@
     padding: 0.3rem 0;
 }
 
-
-/* Hero section ends */
-
-
-/* More about */
-
-.more-about {
-    background-color: var(--bg-color);
-    padding: 1rem 6rem;
+strong{
+  text-decoration: underline ;
 }
 
+.more_about{
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 2px 15px 2px #001eff;
+  background: black;
+}
 .more-about h2 {
     margin-bottom: var(--bottom-margin);
     text-align: center;
 }
-
+.progress{
+  margin: 6px;
+}
 .more-about p {
     line-height: var(--line-height);
-    padding: 0.4rem;
+    padding: 0.4rem; 
 }
+.hero-img{
+    -webkit-animation: scale-in-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: scale-in-center 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }

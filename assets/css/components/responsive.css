@@ -1,6 +1,7 @@
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 920px) {
+   
     nav {
-        padding: 1.5rem 1rem;
+        padding: .2rem .2rem;
     }
     nav ul {
         position: fixed;
@@ -32,7 +33,7 @@
     .hero img {
         height: 20rem;
         width: 20rem;
-        border-radius: 20rem;
+        
     }
     .bio {
         margin-top: 1rem;
@@ -61,6 +62,10 @@
     .contact-form-container {
         max-width: 23.75rem;
     }
+    .contact h2{
+        margin-left:350px;
+    }
+  
 }
 
 @media screen and (max-width: 420px) {
@@ -68,9 +73,9 @@
         display: none;
     }
     .hero img {
-        height: 25rem;
-        width: 20rem;
-        border-radius: 20rem;
+        height: 18.3rem;
+        width: 18.3rem;
+        
     }
     .bio {
         width: 18.3rem;
@@ -80,5 +85,15 @@
     }
     .contact-form-container {
         max-width: 17.75rem;
+    }
+    .contact h2{
+        margin-left: 100px;
+       
+    
+    }
+    #luminous_color{
+    
+        font-size: 8px;
+       
     }
 }
