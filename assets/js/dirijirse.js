@@ -48,6 +48,7 @@ function redireccionar(id) {
   }
     if(id==12){
     window.open("https://github.com/fabiomercadon/productos-angular","_blank");
+    }
 
   // ORACLE + LATAM
   if (id == 3) {
@@ -103,6 +104,5 @@ function redireccionar(id) {
     window.open("https://github.com/fabiomercadon", "_blank");
   }
 
-  
 }
-}
+
