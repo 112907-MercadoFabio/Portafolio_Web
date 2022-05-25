@@ -1,5 +1,4 @@
 @media screen and (max-width: 920px) {
-   
     nav {
         padding: .2rem .2rem;
     }
@@ -33,7 +32,6 @@
     .hero img {
         height: 20rem;
         width: 20rem;
-        
     }
     .bio {
         margin-top: 1rem;
@@ -62,10 +60,9 @@
     .contact-form-container {
         max-width: 23.75rem;
     }
-    .contact h2{
-        margin-left:350px;
+    .contact h2 {
+        margin-left: 350px;
     }
-  
 }
 
 @media screen and (max-width: 420px) {
@@ -75,7 +72,6 @@
     .hero img {
         height: 18.3rem;
         width: 18.3rem;
-        
     }
     .bio {
         width: 18.3rem;
@@ -86,14 +82,10 @@
     .contact-form-container {
         max-width: 17.75rem;
     }
-    .contact h2{
+    .contact h2 {
         margin-left: 100px;
-       
-    
     }
-    #luminous_color{
-    
+    #luminous_color {
         font-size: 8px;
-       
     }
 }
