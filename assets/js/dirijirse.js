@@ -53,6 +53,14 @@ function redireccionar(id) {
   if (id == 22) {
     window.open("https://listado-tarjeta.netlify.app/", "_blank");
   }
+   //Guardado Presupuestos
+   if (id == 23) {
+    window.open("https://guardado-presupuestos.netlify.app/", "_blank");
+  }
+  if (id==24) {
+    window.open("https://github.com/fabiomercadon/BackComentarios","_blank");
+  }
+ 
   // ORACLE + LATAM
   if (id == 3) {
     window.open(
@@ -84,7 +92,7 @@ function redireccionar(id) {
   //Iconos redes sociales curriculum
   if (id == 8) {
     window.open(
-      "https://drive.google.com/file/d/1MRIhp8B3e-AMK0tk-Zf2vrLDd0D2hBfX/view?usp=sharing",
+      "https://drive.google.com/file/d/1P-e11WWDhUSg2SDyFY6m_dIo1a7BAtxJ/view?usp=sharing",
       "_blank"
     );
   }
