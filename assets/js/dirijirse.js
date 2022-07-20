@@ -64,7 +64,7 @@ function redireccionar(id) {
   // ORACLE + LATAM
   if (id == 3) {
     window.open(
-      "https://drive.google.com/file/d/1DSKFmWFXoPSUz5XuabdRAUoj8sBqOasR/view?usp=sharing",
+      "https://app.aluracursos.com/user/fabiomercadon/program/certificate",
       "_blank"
     );
   }
