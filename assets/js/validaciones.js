@@ -42,6 +42,10 @@ const mensajesDeError = {
         valueMissing: "El campo dirección no puede estar vacío",
         patternMismatch: "La dirección debe contener entre 5 a 40 caracteres.",
     },
+    reCaptcha: {
+        valueMissing: "El campo dirección no puede estar vacío",
+        patternMismatch: "La dirección debe contener entre 5 a 40 caracteres.",
+    },
 };
 const validadores = {
     nacimiento: (input) => validarNacimiento(input),

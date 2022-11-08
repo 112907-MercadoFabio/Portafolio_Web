@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <title>FM | Web Developer</title>
-
+    <script src="https://www.google.com/recaptcha/api.js"></script>
 </head>
 
 <body class="caja">
@@ -284,7 +284,7 @@
 
         <div class="contact-form-container ">
             <div class="contact-form ">
-                <form action="https://formspree.io/f/xoqrwvqg" method="POST">
+                <form name="form-contact" action="https://formspree.io/f/xoqrwvqg" method="POST">
                     <div class="form-control-plaintext">
                         <label for="name ">Nombre Completo</label>
                         <input type="text " id="name " name="sender-name " placeholder="Ingrese su nombre" class="input-field " required data-tipo="nombre" />
@@ -315,13 +315,18 @@
                         <textarea id="message" cols="60 " rows="10 " placeholder="Ingrese un Mensaje " name="message" class="input-field " required data-tipo="mensaje"></textarea>
                         <span class="input-message-error"></span>
                     </div>
-
-                    <button type="submit" class="luminous_color" onclick="enviar()">Enviar Formulario</button>
+                    <br>
+                <div class="g-recaptcha" data-sitekey="6LcD6ukiAAAAAJSS_S6JTzzfgqDgIJqxw84omC6p"></div>
+<br>
+                    <button type="submit" name="submit" id="submit" class="luminous_color" >Enviar Formulario</button>
+                    
                 </form>
             </div>
         </div>
     </section>
-
+    <html>
+       
+      </html>
     <!-- Cuentas sociales - Fijadas a la derecha -->
     <div class="socials ">
         <a class="btn" onclick="redireccionar(8)"><img src="assets/icons/icons8-curriculum-64.png" alt="Curriculum " loading="lazy " class="socicon " /></a>
@@ -346,11 +351,11 @@
         </p>
     </footer>
 
+   
     <!-- Archivos js -->
     <script src="assets/js/script.js"></script>
     <script src="assets/js/dirijirse.js"></script>
     <script src="assets/js/app.js" type="module"></script>
-
 
     <!-- Libreria de animaciones -->
 
@@ -365,6 +370,19 @@
     <script src="assets/jquery/jquery.js"></script>
 
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-</body>
-
+ 
 </html>
+<script>
+    $(document).on('click', '#submit', function(){
+  var response = grecaptcha.getResponse();
+  if (response.length == 0) {
+      Swal.fire({
+          icon: 'error',
+          title: 'Verificación',
+          text: 'Por favor, confirma que eres humano.!',
+        
+})
+      return false;
+  }
+});
+</script>
