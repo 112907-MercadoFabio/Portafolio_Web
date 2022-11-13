@@ -92,7 +92,7 @@ function redireccionar(id) {
   //Iconos redes sociales curriculum
   if (id == 8) {
     window.open(
-      "https://drive.google.com/file/d/1P-e11WWDhUSg2SDyFY6m_dIo1a7BAtxJ/view?usp=sharing",
+      "https://drive.google.com/file/d/1ZSVKZj8Ku8NUbCIIPhWjrVhO91Ov7Hdr/view?usp=sharing",
       "_blank"
     );
   }
