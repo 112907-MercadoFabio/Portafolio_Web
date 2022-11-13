@@ -63,6 +63,15 @@
     .contact h2 {
         margin-left: 350px;
     }
+    #gwd-reCAPTCHA_2   {
+        transform: scale(0.84);
+        transform-origin: 0 0;
+        -webkit-transform: scale(0.84);
+        -moz-transform: scale(0.84);
+        -ms-transform: scale(0.84);
+        -o-transform: scale(0.84);
+    }
+    
 }
 
 @media screen and (max-width: 420px) {
@@ -88,4 +97,13 @@
     #luminous_color {
         font-size: 8px;
     }
+    #gwd-reCAPTCHA_2   {
+        transform: scale(0.84);
+        transform-origin: 0 0;
+        -webkit-transform: scale(0.84);
+        -moz-transform: scale(0.84);
+        -ms-transform: scale(0.84);
+        -o-transform: scale(0.84);
+    }
+    
 }
