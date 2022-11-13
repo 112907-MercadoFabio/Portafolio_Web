@@ -52,4 +52,11 @@ form{
     color: wheat;
 }
 
-
+#gwd-reCAPTCHA_2   {
+    transform: scale(0.84);
+    transform-origin: 0 0;
+   }
+#gwd-reCAPTCHA_2, #rc-imageselect   {
+    transform: scale(0.84);
+    transform-origin: 0 0;
+   }
