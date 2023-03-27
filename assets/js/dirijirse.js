@@ -8,6 +8,7 @@ function redireccionar(id) {
     window.open("https://github.com/fabiomercadon/ahorcado-alura", "_blank");
   }
 
+
   //Encriptador de texto
   if (id == 2) {
     window.open("https://fabiomercadon.github.io/alura-challenge/", "_blank");
@@ -53,14 +54,23 @@ function redireccionar(id) {
   if (id == 22) {
     window.open("https://listado-tarjeta.netlify.app/", "_blank");
   }
-   //Guardado Presupuestos
-   if (id == 23) {
+  //Guardado Presupuestos
+  if (id == 23) {
     window.open("https://guardado-presupuestos.netlify.app/", "_blank");
   }
-  if (id==24) {
-    window.open("https://github.com/fabiomercadon/BackComentarios","_blank");
+  if (id == 24) {
+    window.open("https://github.com/fabiomercadon/BackComentarios", "_blank");
   }
- 
+
+
+  //App Ahorros
+  if (id == 25) {
+    window.open("https://app-ahorros.netlify.app/", "_blank");
+  }
+  if (id == 26) {
+    window.open("https://github.com/112907-MercadoFabio/AppPresupuesto", "_blank");
+  }
+
   // ORACLE + LATAM
   if (id == 3) {
     window.open(
@@ -92,7 +102,7 @@ function redireccionar(id) {
   //Iconos redes sociales curriculum
   if (id == 8) {
     window.open(
-      "https://drive.google.com/file/d/1ZSVKZj8Ku8NUbCIIPhWjrVhO91Ov7Hdr/view?usp=sharing",
+      "https://drive.google.com/file/d/1ZSVKZj8Ku8NUbCIIPhWjrVhO91Ov7Hdr/view?usp=share_link",
       "_blank"
     );
   }
@@ -112,7 +122,7 @@ function redireccionar(id) {
 
   //Iconos redes sociales Git Hub
   if (id == 11) {
-    window.open("https://github.com/fabiomercadon", "_blank");
+    window.open("https://github.com/112907-MercadoFabio", "_blank");
   }
 
 }
